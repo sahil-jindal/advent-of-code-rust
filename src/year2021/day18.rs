@@ -128,7 +128,7 @@ fn add(left: &Snailfish, right: &Snailfish) -> Snailfish {
 ///
 /// Storing the tree as an implicit structure has a nice benefit that finding the next left or right
 /// node is straightforward. We first move to the next left or right leaf node by adding or
-/// subtracting one to the index. If this node is empty then we move to the parent node until we
+/// subtracting one from the index. If this node is empty then we move to the parent node until we
 /// find a leaf node.
 ///
 /// The leaf node at index 31 has no possible nodes to the left and similarly the leaf node at

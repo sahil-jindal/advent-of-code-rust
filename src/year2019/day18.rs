@@ -195,7 +195,7 @@ fn explore(width: usize, bytes: &[u8]) -> u32 {
 
         // The set of robots is stored as bits in a `u32` shifted by the index of the location.
         for from in position.biterator() {
-            // The set of keys still needed is also stored as bits in a `u32` similar as robots.
+            // The set of keys still needed is also stored as bits in a `u32` similarly to robots.
             for to in remaining.biterator() {
                 let Door { distance, needed } = maze[from][to];
 

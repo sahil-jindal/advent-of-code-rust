@@ -1,6 +1,6 @@
 //! # Crossed Wires
 //!
-//! The input follow some implicit rules that can be used to simplify our approach:
+//! The input follows some implicit rules that can be used to simplify our approach:
 //!
 //! * Wires cross only at right angles to each other, so we only need to consider horizontal lines
 //!   when moving vertically and vice-versa.

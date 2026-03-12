@@ -14,7 +14,7 @@
 //!
 //! ## Linear Congruences
 //!
-//! The next required insight is that each of the shuffle operation is a *linear congruence*
+//! The next required insight is that each of the shuffle operations is a *linear congruence*
 //! of the form:
 //!
 //! `Xₙ₊₁ = (aXₙ + c) mod m`
@@ -72,7 +72,7 @@
 //!
 //! `(a₁a₂Xₙ + a₂c₁ + c₂) mod m = (Xₙ + 0) mod m`
 //!
-//! This implies that `a₁a₂ mod m = 1` which is the definition of the modular inverse`a₂ = a₁⁻¹`.
+//! This implies that `a₁a₂ mod m = 1` which is the definition of the modular inverse `a₂ = a₁⁻¹`.
 //!
 //! The constant term `(a₂c₁ + c₂) mod m = 0` implies `c₂ = m - a₂c₁`.
 //!

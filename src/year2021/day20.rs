@@ -6,7 +6,7 @@
 //! the cell in a fixed size array with enough space on either side to expand into.
 //!
 //! The interesting nuance is handling the edge cells when all 9 cells are empty (index 0) or all
-//! 9 cell are active (index 511). The sample data encodes a blank cell in both scenarios.
+//! 9 cells are active (index 511). The sample data encodes a blank cell in both scenarios.
 //! My input encoded an active cell for index 0 and a blank cell for index 511, meaning that each
 //! turn the edge cells toggle from set to unset.
 //!
